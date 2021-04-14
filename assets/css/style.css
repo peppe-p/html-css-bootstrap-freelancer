@@ -15,9 +15,9 @@
     border: 1px solid white;
     width: 100px;
 }
-.darker {
-    color: #2c3e50;
-    border-color: #2c3e50;
+.darker * {
+    color: #2c3e50 !important;
+    border-color: #2c3e50 !important;
 }
 
 
@@ -43,7 +43,7 @@ nav a:hover {
     color: lightgray;
 }
 
-/* ############################### */
+/* ############################ */
 /* ####### HERO CLASSES ####### */
 /* ############################ */
 #hero {
@@ -54,4 +54,20 @@ nav a:hover {
 }
 #hero img {
     height: 200px;
+}
+
+
+
+/* ################################# */
+/* ####### PORTFOLIO CLASSES ####### */
+/* ################################# */
+#portfolio .row > img {
+    border-radius: 23px;
+    padding: 15px;
+}
+.portfolio_head {
+    text-align: center;
+}
+.portfolio_head h2 {
+    font-weight: 600;
 }
