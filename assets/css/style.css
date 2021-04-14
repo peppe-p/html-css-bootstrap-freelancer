@@ -21,6 +21,14 @@
 }
 
 
+.section_head {
+    text-align: center;
+}
+.section_head h2 {
+    color: white;
+    font-weight: 600;
+}
+
 /* ################################ */
 /* ####### UTILITY SELECTOR ####### */
 /* ################################ */
@@ -57,7 +65,6 @@ nav a:hover {
 }
 
 
-
 /* ################################# */
 /* ####### PORTFOLIO CLASSES ####### */
 /* ################################# */
@@ -65,9 +72,10 @@ nav a:hover {
     border-radius: 23px;
     padding: 15px;
 }
-.portfolio_head {
-    text-align: center;
-}
-.portfolio_head h2 {
-    font-weight: 600;
+
+/* ############################# */
+/* ####### ABOUT CLASSES ####### */
+/* ############################# */
+#about > div > *, .btn_download {
+    margin: 20px 0px;
 }
