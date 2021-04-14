@@ -40,6 +40,9 @@
     background-color: #1abc9c;
 }
 
+.no_border {
+    border: none;
+}
 /* ############################### */
 /* ####### HEADER CLASSES ####### */
 /* ############################### */
@@ -78,4 +81,43 @@ nav a:hover {
 /* ############################# */
 #about > div > *, .btn_download {
     margin: 20px 0px;
+}
+
+
+/* ################################## */
+/* ####### CONTACT ME CLASSES ####### */
+/* ################################## */
+#contactme form input, #contactme form textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+#contactme form ::placeholder {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* ############################## */
+/* ####### FOOTER CLASSES ####### */
+/* ############################## */
+footer {
+    background-color: #3a546d;
+    color: white;
+    text-align: center;
+}
+footer > div > div > div {
+    margin: 20px 0px;
+}
+footer h5, footer h6 {
+    font-weight: 600;
+}
+footer span {
+    color: #1abc9c;
+}
+footer i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 0px 5px;
 }
